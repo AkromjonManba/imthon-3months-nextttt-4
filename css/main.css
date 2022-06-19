@@ -735,6 +735,7 @@ img {
   padding: 190px 0 190px 0;
   background-image: url("../../images/runners 1.png");
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   background-size: cover;
 }
