@@ -1,0 +1,42 @@
+.sport-brand {
+    padding-top: 182px;
+}
+.sport__box {
+    @include flex-starter;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sport__info {
+    max-width: 490px;
+    width: 100%;
+}
+
+.sport__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.sport__info {
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    border-left: 3px solid #888888;
+}
+
+@media screen and (max-width:520px) {
+    .sport__box {
+        flex-direction: column-reverse;
+    }
+    .row {
+        display: none;
+    }
+}

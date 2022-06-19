@@ -1,13 +1,37 @@
+.site-footer {
+    margin-top: 90px;
+    padding: 190px 0 190px 0;
+    background-image: url("../../images/runners\ 1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
 
+.footer__box {
+    margin-left: auto;
+}
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
+.footer__info-box {
+    margin-left: auto;
+    max-width: 490px;
+    width: 100%;
+}
 
-  
-} 
+.footer__title {
+    display: inline-block;
+    margin-bottom:30px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.footer__text {
+    border-left: 3px solid #fff;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
